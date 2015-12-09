@@ -30,6 +30,17 @@
     XCTAssert(YES, @"Pass");
 }
 
+
+- (void)testAnispy{
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
+- (void)testZensarTest{
+    // This is an example of a functional test case.
+    XCTAssert(YES, @"Pass");
+}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
