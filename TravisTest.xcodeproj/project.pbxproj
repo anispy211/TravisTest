@@ -347,9 +347,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zensar Technologies Ltd";
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fdfba55f-3e79-4ea4-a136-774b8e950ccd";
 			};
 			name = Debug;
 		};
@@ -357,9 +359,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Zensar Technologies Ltd";
 				INFOPLIST_FILE = TravisTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fdfba55f-3e79-4ea4-a136-774b8e950ccd";
 			};
 			name = Release;
 		};
@@ -416,6 +420,7 @@
 				86472FD61C1811DD003EBFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86472FD71C1811DD003EBFD9 /* Build configuration list for PBXNativeTarget "TravisTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +429,7 @@
 				86472FD91C1811DD003EBFD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
