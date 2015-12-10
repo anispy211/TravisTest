@@ -1,0 +1,21 @@
+ine:
+  environment:
+    XCODE_SCHEME: TravisTest
+    XCODE_WORKSPACE: TravisTest.xcodeproj
+    DEVELOPER_NAME: 'iPhone Distribution: Zensar Technologies Ltd (S7QCGMNJX5)'
+    APPNAME: TravisTest.xcodeproj
+    PROFILE_UUID: fdfba55f-3e79-4ea4-a136-774b8e950ccd
+    TESTFLIGHT_DIST_LIST: your-dist-list-name
+dependencies:
+  override:
+    - pod install:
+        timeout: 300
+deployment:
+  testflight:
+    branch: master
+    commands:
+      - ./scripts/add-key.sh
+      - ./scripts/testflight.sh
+      - ./scripts/remove-key.sh
+
+
